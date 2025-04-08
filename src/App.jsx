@@ -4,6 +4,7 @@ import {HomePage} from './pages/first-page/first-page';
 import { MainPage } from './pages/main-page/main-page';  
 import {LoginPage} from './pages/login-page/login-paje';
 import { AiHelper } from './pages/ai-helper-page/ai-helper-page';
+import {NotFoundPage} from './pages/404/error'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/main" element={<MainPage />} />
         <Route path='/login' element= {<LoginPage/>}></Route>
         <Route path='/AI-helper' element= {<AiHelper/>}></Route>
+        <Route path='*' element={<NotFoundPage/>}></Route>
       </Routes>
     </Router>
   );

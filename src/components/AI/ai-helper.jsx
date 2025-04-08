@@ -86,15 +86,16 @@ export const AILogic = () => {
       </Form>
 
       {suggestions.length > 0 && (
-        <div className="mt-5">
+        <div className="mt-5 ">
           <h2 style={{color:"rgb(88, 19, 19)"}}>Movie Suggestions:</h2>
-          <ul className="list-group back">
+          <ul className="list-group border">
             {suggestions.map((movie, index) => (
               <li key={index} className="list-group-item">
                 {movie.title}
               </li>
             ))}
           </ul>
+          
         </div>
       )}
     </Container>

@@ -88,7 +88,7 @@ export const Table = ({ data, onRowClick }) => {
             <th>Year</th>
             <th>Type</th>
             <th className="text-center">IMDB ID</th>
-            <th></th> {/* Placeholder for additional actions */}
+            <th></th> 
           </tr>
         </thead>
         <tbody>
