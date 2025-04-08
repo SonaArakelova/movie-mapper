@@ -1,0 +1,13 @@
+.modal-content{
+    background-color: rgb(23, 21, 21) !important;
+    padding: 2rem !important;
+}
+
+.modal-header{
+    color: white;
+}
+
+.btn-close{
+    background-color: white !important;
+}
+
